@@ -8,7 +8,7 @@ while [ ! -d /opt/keys/flagdir ]; do
   sudo mount 192.168.1.1:/opt/keys /opt/keys
   sleep 10
 done
-
+#192.168.1.1 is the head node
 while [ ! -f /opt/keys/kube_done ]; do
   sleep 20
 done
